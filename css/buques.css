@@ -79,71 +79,79 @@
     }
 
     .imagensBuques{
+        display: block;
         border: 1px solid black;
-        width: 25vw;
-        height: 25vw;  
-        margin-left: 1vw;
-        margin-top: 1vw;
-        margin-bottom: 1vw;
+        width: 40vw;
+        height: 30vw;  
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vw;
+        margin-bottom: 4vw;
     }
     
     
     .caixaBotao button{
-        padding: 1vw;
-        width: 14vw;
-        top: 1.5vw;
-        margin-left: 5.5vw;
+        padding: 1.5vw;
+        width: 20vw;
+        top: 0vw;
+        margin-left: 0vw;
         border-radius: 10px;
         background-color: #F2E205;
         border: 1px solid black;
     }
     
     .caixaBotao a{
+        display: block;
         text-decoration: none;
         color: black;
-        font-size: 2vw;
+        font-size: 3vw;
     }
     
     .caixaBotao button:hover{
         cursor: pointer;
         background-color: #ffee0081;
-        padding: 1.2vw;
+        padding: 1.7vw;
     }
 
     #margem{
-        margin-bottom: 11vw;
+        margin-bottom: 25vw;
     }
 
     .fundoBuques1{
-        background-image: url(../imagens/buques/FundoBuquesCelular1.png);
+        background-image:none;
+        text-align:center;
         width: 100%;
         height: 35vw;
         
     }
     
     .fundoBuques2{
-        background-image: url(../imagens/buques/FundoBuquesCelular2.png);
+        background-image:none;
+        text-align:center;
         width: 100%;
         height: 35vw;
        
     }
     
     .fundoBuques3{
-        background-image: url(../imagens/buques/FundoBuquesCelular1.png);
+        background-image:none;
+        text-align:center;
         width: 100%;
         height: 35vw;
        
     }
     
     .fundoBuques4{
-        background-image: url(../imagens/buques/FundoBuquesCelular3.png);
+        background-image:none;
+        text-align:center;
         width: 100%;
         height: 35vw;
        
     }
     
     .fundoBuques5{
-        background-image: url(../imagens/buques/FundoBuquesCelular4.png);
+        background-image:none;
+        text-align:center;
         width: 100%;
         height: 35vw;
 
