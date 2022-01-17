@@ -1,0 +1,54 @@
+#gif2{
+    width: 100%;
+}
+
+.caixaTexto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.titulosH1{
+    margin-left: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+}
+
+.titulosH2{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    position: absolute;
+    right: 0;
+    font-size: 2vw;
+    margin-right: 4vw;
+}
+
+.titulosH2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulosH2 a:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos img{
+    background-color: gray;
+    width: 18vw;
+    height: 24vw;
+    margin: auto;
+}
+
+#margem{
+    margin-bottom: 12vw;
+}

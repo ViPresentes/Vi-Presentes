@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    user-select: none;
+    background-color: #59A8D9;
+    font-family: 'Merriweather', serif;
+    width: 100%;
+}
+
+header{
+    background-color: #F2E205;
+    font-family: 'The Nautigal', cursive;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0.5vw;
+}
+
+header h1{
+    padding: 10px;
+    font-size: 4vw;
+    font-weight: normal;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5vw;
+}
+
+#menu{
+    z-index: 2;
+}
+
+#menu-bar img{
+    margin-top: 0.8vw;
+    margin-bottom: 0.8vw;
+    padding: 10px;
+    height: 3vw;
+    width: 3.5vw;
+}
+
+
+#menu-bar img:hover{
+   cursor: pointer;
+}
+
+.nav{
+    transition: 0.3s ease;
+    display: none;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav li{
+    list-style: none;
+    display: inline;
+}
+
+.nav li a{
+    color: white;
+    font-size: 1.9vw;
+    text-decoration: none;
+    color: black;
+    font-family: 'Merriweather', serif;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.nav li a:hover{
+    font-size: 2.2vw;
+}
+
+.menu-bg, #menu{
+    position: absolute;
+}
+
+.menu-bg{
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background-color: radial-gradient(circle, #DC052D, #DC052D);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.change{
+    display: block;
+}
+
+.change-bg{
+    width: 520px;
+    height: 460px;
+    transform: translateX(-60%, -30%);
+}
+
+footer{
+    background-color: #F2E205;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    padding: 10px 5px;
+}
+
+footer img{
+    height: 3vw;
+    width: 3vw;
+    margin-right: 1vw;
+    margin-left: 0.5vw;
+}
+
+footer img:hover{
+    height: 3.4vw;
+    width: 3.4vw;
+    cursor: pointer;
+}
+
