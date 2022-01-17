@@ -149,7 +149,7 @@ footer img:hover{
 
     .nav li a{
         color: white;
-        font-size: 3vw;
+        font-size: 4vw;
         text-decoration: none;
         color: black;
         font-family: 'Merriweather', serif;
@@ -158,7 +158,7 @@ footer img:hover{
     }
     
     .nav li a:hover{
-        font-size: 3.2vw;
+        font-size: 4.1vw;
     }
 
     footer img{
