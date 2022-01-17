@@ -91,3 +91,89 @@ img{
     padding: 1.2vw;
     height: 5.2vw;
 }
+
+@media screen and (max-width:768px){
+
+    #caixa2{
+        margin-left: 10px;
+        background-color: #F2E205;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #caixa2 h1{
+        text-align: center;
+        padding: 10px;
+        font-size: 3.8vw;
+    }
+    
+    #novidades{
+        background-color: white;
+        border: 1px solid black;
+        margin: 20px;
+    }
+    
+    #novidades img{
+        height: 30vw;
+    }
+
+    #frase1{
+        font-size: 3.5vw;
+        margin: auto;
+        font-weight: normal;
+        padding: 10px;
+    }
+
+    #frase2{
+        text-align: center;
+        padding: 30px;
+        font-size: 3.8vw;
+        font-weight: bold;
+        margin-top: 10vw;
+    }
+    
+    #gif{
+        width: 100%;
+        height: 40vw;
+        background-image: url(../imagens/celularGif.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+    
+    #caixa4{
+        margin-top: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 20vw;
+    }
+    
+    #caixa4 p{
+        font-size: 3.5vw;
+        margin-left: 1vw;
+    }
+    
+    #caixa4 button{
+        margin-left:15vw;
+        padding: 2vw;
+        font-size: 3vw;
+        height: 8vw;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: #F2E205;
+    }
+
+    #caixa4 button:hover{
+        cursor: pointer;
+        background-color: #ffee0081;
+        padding: 2.5vw;
+        height: 10vw;
+    }
+   
+
+}
+

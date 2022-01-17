@@ -52,3 +52,28 @@
 #margem{
     margin-bottom: 12vw;
 }
+
+@media screen and (max-width:768px){
+
+    #margem{
+        margin-bottom: 19vw;
+    }
+
+    .titulosH1{
+        margin-left: 1vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        font-size: 3vw;
+    }
+    
+    .titulosH2{
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        position: absolute;
+        right: 0;
+        font-size: 3vw;
+        margin-right: 4vw;
+    }
+
+}
+

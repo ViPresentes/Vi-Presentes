@@ -125,3 +125,55 @@ footer img:hover{
     cursor: pointer;
 }
 
+@media screen and (max-width:768px){
+
+    header h1{
+        padding: 6px;
+        font-size: 8vw;
+        font-weight: normal;
+    }
+
+    header h1 a{
+        text-decoration: none;
+        color: black;
+        margin-left: 10vw;
+    }
+
+    #menu-bar img{
+        margin-top: 0.8vw;
+        margin-bottom: 0.8vw;
+        padding: 10px;
+        height: 6vw;
+        width: 7vw;
+    }
+
+    .nav li a{
+        color: white;
+        font-size: 3vw;
+        text-decoration: none;
+        color: black;
+        font-family: 'Merriweather', serif;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+    
+    .nav li a:hover{
+        font-size: 3.2vw;
+    }
+
+    footer img{
+        height: 6vw;
+        width: 6vw;
+        margin-right: 5vw;
+        margin-left: 0.5vw;
+    }
+
+    footer img:hover{
+        height: 7vw;
+        width: 7vw;
+        cursor: pointer;
+    }
+
+}
+
+

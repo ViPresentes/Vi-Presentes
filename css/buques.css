@@ -78,9 +78,74 @@
         margin-bottom: 2vw;
     }
 
-    #margem{
-        margin-bottom: 12vw;
+    .imagensBuques{
+        border: 1px solid black;
+        width: 25vw;
+        height: 25vw;  
+        margin-left: 1vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
     }
+    
+    
+    .caixaBotao button{
+        padding: 1vw;
+        width: 14vw;
+        top: 1.5vw;
+        margin-left: 5.5vw;
+        border-radius: 10px;
+        background-color: #F2E205;
+        border: 1px solid black;
+    }
+    
+    .caixaBotao a{
+        text-decoration: none;
+        color: black;
+        font-size: 2vw;
+    }
+    
+    .caixaBotao button:hover{
+        cursor: pointer;
+        background-color: #ffee0081;
+        padding: 1.2vw;
+    }
+
+    #margem{
+        margin-bottom: 11vw;
+    }
+
+    .fundoBuques1{
+        background-image: url(../imagens/buques/FundoBuquesCelular1.png);
+        width: 100%;
+        height: 35vw;
+        
+    }
+    
+    .fundoBuques2{
+        background-image: url(../imagens/buques/FundoBuquesCelular2.png);
+        width: 100%;
+        height: 35vw;
+       
+    }
+    
+    .fundoBuques3{
+        background-image: url(../imagens/buques/FundoBuquesCelular1.png);
+        width: 100%;
+        height: 35vw;
+       
+    }
+    
+    .fundoBuques4{
+        background-image: url(../imagens/buques/FundoBuquesCelular3.png);
+        width: 100%;
+        height: 35vw;
+       
+    }
+    
+    .fundoBuques5{
+        background-image: url(../imagens/buques/FundoBuquesCelular4.png);
+        width: 100%;
+        height: 35vw;
 
 }
 
