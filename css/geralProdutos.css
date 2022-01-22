@@ -115,7 +115,7 @@
     }
     
     .caixaLink button{
-        padding: 2vw;
+        padding: 1vw;
         width: 15vw;
         margin-right: auto;
         margin-left: auto;
@@ -133,7 +133,7 @@
     .caixaLink button:hover{
         cursor: pointer;
         background-color: #ffee0081;
-        padding: 2.6vw;
+        padding: 1.2vw;
     }
     
     #margem{

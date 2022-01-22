@@ -81,7 +81,7 @@
     .imagensBuques{
         display: block;
         border: 1px solid black;
-        width: 40vw;
+        width: 30vw;
         height: 30vw;  
         margin-left: auto;
         margin-right: auto;
@@ -115,45 +115,11 @@
 
     #margem{
         margin-bottom: 25vw;
-    }
-
-    .fundoBuques1{
-        background-image:none;
-        text-align:center;
-        width: 100%;
-        height: 35vw;
-        
-    }
+    }    
     
-    .fundoBuques2{
+    .fundoBuques5, .fundoBuques4, .fundoBuques3, .fundoBuques2, .fundoBuques1{
         background-image:none;
         text-align:center;
-        width: 100%;
-        height: 35vw;
-       
-    }
-    
-    .fundoBuques3{
-        background-image:none;
-        text-align:center;
-        width: 100%;
-        height: 35vw;
-       
-    }
-    
-    .fundoBuques4{
-        background-image:none;
-        text-align:center;
-        width: 100%;
-        height: 35vw;
-       
-    }
-    
-    .fundoBuques5{
-        background-image:none;
-        text-align:center;
-        width: 100%;
-        height: 35vw;
     }
 
 }
